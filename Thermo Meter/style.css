@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: #30336b;
+}
+.main-content {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+h1 {
+	font-size: 180px;
+	font-family: 'Courier New', Courier, monospace;
+	color: darkgray;
+	margin: 60px;
+}
+span {
+	font-size: 50px;
+	color: darkgray;
+	padding-left: 50px;
+}
