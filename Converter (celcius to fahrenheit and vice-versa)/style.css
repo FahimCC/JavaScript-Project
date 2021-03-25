@@ -1,0 +1,39 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Mulish', sans-serif;
+}
+body {
+	display: grid;
+	place-content: center;
+	width: 100vw;
+	height: 100vh;
+	background: #f8e7af;
+}
+form {
+	background: #fab1a0;
+	padding: 80px;
+	width: 80%;
+	margin: 100px auto;
+	text-align: center;
+}
+#tempCalc label {
+	font-size: 30px;
+}
+
+#temp {
+	border: none;
+	padding: 10px;
+	height: 40px;
+	width: 100px;
+	font-size: 20px;
+	margin-top: 20px;
+}
+input,
+select {
+	margin: 20px;
+	font-size: 17px;
+	padding: 7px;
+	border-radius: 5px;
+}
