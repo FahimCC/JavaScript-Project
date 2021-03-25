@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Convert celsius to fahrenheit and vice-versa</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="content">
+			<form id="tempCalc" onsubmit="CalculateTemp(); return false">
+				<label for="temp"
+					>Please enter temperature you'd like to convert.</label
+				>
+				<br />
+				<input type="number" name="temp" id="temp" />
+
+				<select name="tempOption" id="tempOption">
+					<option value="cel">Celsius</option>
+					<option value="fah">Fahrenheit</option>
+				</select>
+				<br />
+				<input type="submit" name="temp" />
+
+				<h1 id="tempResult"></h1>
+			</form>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>
