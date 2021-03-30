@@ -1,0 +1,31 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: steelblue;
+}
+.counter-container {
+	display: grid;
+	place-content: center;
+	background: steelblue;
+	text-align: center;
+	font-size: 25px;
+	color: whitesmoke;
+	font-weight: bolder;
+}
+.counter {
+	font-size: 70px;
+	color: burlywood;
+	padding: 15px 0;
+}
+span {
+	font-size: 35px;
+}
